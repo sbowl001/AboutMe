@@ -14,7 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var hobbiesLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.nameLabel.text = nil
+        self.hobbiesLabel.text = nil
     }
 
     @IBAction func introduceSelfButtonTapped(_ sender: Any) {
