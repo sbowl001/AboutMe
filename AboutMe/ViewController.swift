@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.nameLabel.text = nil
         self.hobbiesLabel.text = nil
+        print ("added cool features")
     }
 
     @IBAction func introduceSelfButtonTapped(_ sender: Any) {
